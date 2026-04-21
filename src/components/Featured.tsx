@@ -41,7 +41,7 @@ export default function Featured() {
         <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
           <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
           <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-            Более 10 лет на рынке Тольятти. Более 500 сделок — офисы, склады, торговые площади и производственные помещения под ключ.
+            На рынке коммерческой недвижимости Тольятти с 2009 года. Более 1000 сделок по аренде и продаже — офисы, склады, торговые площади и производственные помещения под ключ.
           </p>
           <ul className="mb-8 space-y-2 text-neutral-700 text-base">
             <li>— Подбор объекта под ваш бюджет и задачи</li>
