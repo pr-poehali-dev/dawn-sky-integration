@@ -19,19 +19,22 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/ea3293d6-c573-47ab-b18c-79d38a469788/files/c588960a-ca34-40b8-9355-bc5074e3af2b.jpg"
+          alt="Коммерческая недвижимость Тольятти"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          НЕДВИЖИМОСТЬ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Продажа и аренда коммерческих помещений в Тольятти. Офисы, склады, торговые площади — найдём лучший вариант для вашего бизнеса.
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Смотреть объекты
+        </button>
       </div>
     </div>
   );
