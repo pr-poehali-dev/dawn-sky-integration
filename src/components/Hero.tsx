@@ -32,9 +32,14 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Продажа и аренда коммерческих помещений в Тольятти. Офисы, склады, торговые площади — найдём лучший вариант для вашего бизнеса.
         </p>
-        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
-          Смотреть объекты
-        </button>
+        <a
+          href="https://www.avito.ru/i89006289"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Смотреть объекты на AVITO
+        </a>
       </div>
     </div>
   );
