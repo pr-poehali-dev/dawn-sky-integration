@@ -29,9 +29,11 @@ export default function Promo() {
         Тольятти — деловой центр Поволжья
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Найдём помещение под ваши задачи в любом районе города. Аренда от 30 до 10 000 м², продажа помещений для вашего бизнеса и инвестиционные объекты с арендаторами.
-      </p>
+      <div className="absolute bottom-12 right-6 text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10 flex flex-col gap-2">
+        <p>— Найдём помещение под ваши задачи в любом районе города</p>
+        <p>— Аренда от 30 до 10 000 м²</p>
+        <p>— Продажа помещений для вашего бизнеса и инвестиционные объекты с арендаторами</p>
+      </div>
     </div>
   );
 }
